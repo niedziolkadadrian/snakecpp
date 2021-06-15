@@ -1,0 +1,32 @@
+﻿Build started 23.02.2020 20:08:18.
+     1>Project "D:\Visual projekty\Snake\Snake\Snake.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio 2012 Ultimate\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D SFML_STATIC /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt KeyBindings.cpp main.cpp
+         main.cpp
+     1>d:\visual projekty\snake\snake\main.cpp(38): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\visual projekty\snake\snake\main.cpp(39): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\visual projekty\snake\snake\main.cpp(57): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\visual projekty\snake\snake\main.cpp(58): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\visual projekty\snake\snake\main.cpp(66): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\visual projekty\snake\snake\main.cpp(85): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\visual projekty\snake\snake\main.cpp(117): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\visual projekty\snake\snake\main.cpp(129): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\visual projekty\snake\snake\main.cpp(180): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\visual projekty\snake\snake\main.cpp(104): warning C4101: 'key' : unreferenced local variable
+         KeyBindings.cpp
+         Generating Code...
+       Link:
+         D:\Visual Studio 2012 Ultimate\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual projekty\Snake\Debug\Snake.exe" /INCREMENTAL /NOLOGO "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" opengl32.lib freetype.lib jpeg.lib winmm.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual projekty\Snake\Debug\Snake.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual projekty\Snake\Debug\Snake.lib" /MACHINE:X86 Debug\AssetsManager.obj
+         Debug\Button.obj
+         Debug\Curve.obj
+         Debug\Food.obj
+         Debug\KeyBindings.obj
+         Debug\main.obj
+         Debug\Scoreboard.obj
+         Debug\Snake.obj
+         Snake.vcxproj -> D:\Visual projekty\Snake\Debug\Snake.exe
+     1>Done Building Project "D:\Visual projekty\Snake\Snake\Snake.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.25
